@@ -52,9 +52,9 @@ $$
 Thus `Re_E` and `Im_E` are the real and imaginary parts of $\mathcal E$, while `Re_lambda` and `Im_lambda` refer to $\lambda$. In particular,
 
 $$
-\operatorname{Re}\mathcal E=-\operatorname{Im}\lambda,
+\mathrm{Re}(\mathcal E)=-\mathrm{Im}(\lambda),
 \qquad
-\operatorname{Im}\mathcal E=\operatorname{Re}\lambda.
+\mathrm{Im}(\mathcal E)=\mathrm{Re}(\lambda).
 $$
 
 The positive-real-part selection is applied to $\mathcal E$, **not** to the real part of $\lambda$.
