@@ -81,9 +81,9 @@ let $\lambda$ be an eigenvalue of $\mathcal L$. The exported data use
 $$
 \mathcal E=i\lambda,
 \qquad
-\operatorname{Re}(\mathcal E)=-\operatorname{Im}(\lambda),
+\mathrm{Re}(\mathcal E)=-\mathrm{Im}(\lambda),
 \qquad
-\operatorname{Im}(\mathcal E)=\operatorname{Re}(\lambda).
+\mathrm{Im}(\mathcal E)=\mathrm{Re}(\lambda).
 $$
 
 Thus `Re_E` describes the oscillatory frequency in this convention, while `Im_E` gives the modal growth or decay rate. A negative `Im_E` corresponds to decay. For the effective commutator generator, $\mathcal E_{ij}=E_i-E_j$ is real.
