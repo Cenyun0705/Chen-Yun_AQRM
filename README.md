@@ -116,3 +116,7 @@ The numerical work uses Python 3 with NumPy and SciPy. The fitting notebook addi
 4. Read the full and effective spectral datasets using the convention above and the column definitions in their directory README.
 
 CSV files can be opened in Python, Origin, or spreadsheet software. Full-spectrum NumPy files can be loaded with `numpy.load`. Large full Liouvillian calculations require sufficient memory and computation time; notebook and cluster execution details are documented with the corresponding calculation files.
+
+## Additional dynamics and Fourier-domain results
+
+[View figures, parameters, and method descriptions](Dynamics_and_Spectra/README.md)
