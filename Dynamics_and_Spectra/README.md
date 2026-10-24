@@ -33,6 +33,18 @@ Here, "full" refers to the retained FP-QME generator in the finite spin-oscillat
 
 ### Parameters
 
+The effective bath parameters
+$\bar{\Omega}$, $\bar{\zeta}$, $\delta_0$, $\delta_1$, and $\delta_2$
+were obtained by least-square fitting of the Brownian-oscillator
+bath correlation function with input damping parameter
+$\zeta_{\mathrm{input}}=1.0$ and inverse temperature $\beta=1.0$,
+using the fitting procedure described in the manuscript.
+
+The input value $\zeta_{\mathrm{input}}=1.0$ is distinct from the
+fitted value $\bar{\zeta}=0.9987979339035183$.
+Both the full FP-QME and effective-$H_{\mathrm H}$ calculations
+use this same fitted parameter set.
+
 | Script parameter | Value |
 | --- | --- |
 | `zeta_input` | `1.0` |
@@ -96,6 +108,21 @@ The comparison documents similarities and differences in the observable's freque
 ## 2. Drude bath: HQME
 
 This set compares an isolated AQRM reference (`lambda = 0`) with two Drude-bath calculations (`lambda = 0.01` and `0.1`). The dissipative calculations use the HQME method based on the improved semiclassical treatment of Drude dissipation in the reference below.
+
+### Bath spectral density
+
+### Bath spectral density
+
+The Drude spectral density follows the convention of Xu et al.
+[J. Chem. Phys. 131, 214111 (2009)]:
+
+```math
+J_{\mathrm{D}}(\omega)=\frac{2\lambda\gamma\omega}{\omega^2+\gamma^2},\qquad \omega>0.
+```
+
+Here, `lambda` is the bath reorganization energy and `gamma` is
+the Drude decay rate. The calculations use `gamma = 1.0` and
+`lambda = 0, 0.01, 0.1`. The case `lambda = 0` is the isolated reference.
 
 ### Parameters
 
